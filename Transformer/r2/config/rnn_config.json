@@ -1,0 +1,30 @@
+{
+    "model_type": "rnn",
+    "max_seq_len": 512,
+    "model_path": "../work/lbwj_bin/model/rnn/",
+    "log_path": "log/",
+  
+    "train_file_path": "../work/lbwj_bin/data/train.csv",
+    "valid_file_path": "../work/lbwj_bin/data/valid.csv",
+    "all_train_file_path": "../work/lbwj_bin/data/all_train.csv",
+  
+    "batch_size": 2,
+  
+    "vocab_size": 18918,
+    "embed_size": 300,
+    "num_classes": 2,
+    "dropout": 0.1,
+  
+    "lr": 1e-4,
+    "num_epoch": 10,
+    "max_grad_norm": 1.0,
+	
+    "d_model ": 256,
+    "ffn_hidden": 1024,
+    "num_heads": 8,
+    "num_encoder ": 6,
+    "pad_size": 32,
+
+    "gpu_ids": "3",
+    "experiment_name": "RNN"
+  }
